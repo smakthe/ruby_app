@@ -1,6 +1,6 @@
 # this is the spec file for Parser class containing testcases to check all the methods
 
-require_relative '..\lib\parser'
+require_relative '../lib/parser'
 
 describe Parser do
   it 'would create a new parser object, an instance of the Parser class' do

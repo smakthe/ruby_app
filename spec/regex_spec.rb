@@ -1,6 +1,6 @@
 # this is the spec file for Regex module containing testcases to check all the regular expressions
 
-require_relative '..\lib\regex'
+require_relative '../lib/regex'
 
 describe Regex do
   it 'should match with the correct URL pattern' do

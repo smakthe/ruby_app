@@ -3,7 +3,7 @@
 # 2. list of webpages with most unique page views also ordered
 
 # requiring the Parser class which is responsible for parsing the input file
-require_relative 'parser'
+require 'parser'
 
 module Output
   def self.print_result(file_content)
