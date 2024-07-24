@@ -1,7 +1,7 @@
 # this is the main file, the entry point of the application
 
 # requiring the Output module
-require 'lib/output'
+require_relative 'lib/output'
 
 # taking the first argument from the command line inputs which is the name of the logfile
 filename = ARGV[0]

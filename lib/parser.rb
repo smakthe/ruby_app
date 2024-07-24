@@ -3,7 +3,7 @@
 # 2. A hash of webpages with no of unique visits sorted in descending order
 
 # requiring the Regex module
-require 'regex'
+require_relative 'regex'
 
 class Parser
   # this is the constructor method of the Parser class. If present, it initializes an instance variable with the input data
